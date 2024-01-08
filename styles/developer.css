@@ -103,14 +103,16 @@ nav li a{
     margin-top: 90px;   
 }
 main{
-    max-width: 1140px;
-    margin: 0px auto;
+    /* max-width: 1140px; */
+    /* margin: 0px auto; */
 }
 
 /* About Section */
 .about{
-    width: 1400px;
-    /* height: 500px; */
+    /* width: 1400px; */
+    height: 300px;
+    margin-right: 400px;
+    margin-left: 400px;
     background-color:#FFF8F3 ;
     
 }
@@ -143,4 +145,81 @@ main{
     font-size: 20px;
     font-weight: 700;
 }
-   
+
+/* what I do */
+.what{
+    margin-top: 258px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.what-i-do{
+    text-align: center;
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.what-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.knowledge{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.knowlegde-header1{
+    width: 267px;
+    height: 377px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.knowlegde-header2{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.knowlegde-header3{
+    width: 267px;
+    height: 377px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.knowlegde-header4{
+    width: 267px;
+    height: 377px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.image{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.knowledge-title{
+    color:#181818;
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 700;
+}
+.knowledge-details{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+}
