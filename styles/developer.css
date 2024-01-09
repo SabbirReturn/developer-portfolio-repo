@@ -176,7 +176,7 @@ main{
 
 .knowlegde-header1{
     width: 267px;
-    height: 377px;
+    height: 300px;
     padding-left: 30px;
     border-radius: 5px;
     border-radius: 5px;
@@ -185,7 +185,7 @@ main{
 }
 .knowlegde-header2{
     width: 267px;
-    height: 377px;
+    height: 300px;
     border-radius: 5px;
     padding-left: 30px;
     border-radius: 5px;
@@ -194,7 +194,7 @@ main{
 }
 .knowlegde-header3{
     width: 267px;
-    height: 377px;
+    height: 300px;
     padding-left: 30px;
     border-radius: 5px;
     background: #FFF;
@@ -202,7 +202,7 @@ main{
 }
 .knowlegde-header4{
     width: 267px;
-    height: 377px;
+    height: 300px;
     padding-left: 30px;
     border-radius: 5px;
     background: #FFF;
@@ -222,4 +222,117 @@ main{
     color:#757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* resume style */
+
+.resume{
+    text-align: center;
+    margin-top: 130px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.resume-conteiner{
+    display: flex;
+    gap: 50px;
+    padding: 110px 230px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.resume-header{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.resume-details{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.resume-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.fourth-btn1{
+    text-align: center;
+}
+.fourth-btn{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+footer{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+.footer{
+    display: flex;
+    gap: 120px;
+    padding: 130px 230px;
+}
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.footer-description{
+    color:#474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+a{
+    margin-right: 24px;
+}
+.text{
+    padding-left: 30px ;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+
+}
+.email{
+    padding-left: 30px ;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+}
+.Message{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0px;
+}
+.last-btn{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
